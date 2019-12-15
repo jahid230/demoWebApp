@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sample Servlet Application</title>
+<meta charset="UTF-8">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+<a href="order">Please Click view the get request</a>
+  <h2>Registration (basic) form</h2>
+  <form method="post" action="order">
+    <div class="form-group">
+      <label for="IssueDate">Issue Date</label>
+     
+      <input type="text" class="form-control" id="IssueDate" placeholder="Enter a Issue Date" name="IssueDate">
+    </div>
+    <div class="form-group">
+      <label for="NumOfOrder">Number of Order:</label>
+      <input type="text" class="form-control" id="NumOfOrder" placeholder="Num of Order" name="NumOfOrder">
+    </div>
+   <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
